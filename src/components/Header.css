@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.header-container {
+    background-color: black;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-row {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.header-link {
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+
+
+}
+
+.header-link a {
+    color: #f8f8f8;
+    padding: 12px 15px;
+    text-decoration: none;
+}
+
+.header-link-icon {
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    line-height: 20px;
+    margin-top: 15px;
+
+
+}
+
+.header-link-icon a {
+    color: #f8f8f8;
+    padding: 12px 15px;
+    text-decoration: none;
+}
+
+.header-link a:hover {
+    color: var(--main-color) !important;
+    border-bottom: 4px solid rgb(54, 54, 184);
+}
+
+.header-link-icon a:hover {
+    color: var(--main-color) !important;
+}
+
+.menu-icon {
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    line-height: 20px;
+    margin-top: 15px;
+    color: #f8f8f8;
+    display: none;
+    user-select: none !important;
+
+}
+
+.logo-img {
+    width: 150px;
+}
+
+@media screen and (max-width:1300px) {
+    .header-row {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .header-link-icon a {
+        padding: 12px 10px;
+    }
+
+}
+.nav-list-responsive{
+    list-style: none;
+    padding: 0px !important;
+    transition: 0.2s all ease-in-out !important;
+    margin-bottom: 0px;
+}
+.no-display{
+    display: none;
+    height: 0px;
+    overflow: hidden;
+    
+}
+.nav-list-responsive li {
+    margin-top: 0px !important;
+    border-bottom: 2px solid white;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    
+}
+.faq{
+    border-bottom: none !important;
+}
+.nav-list-responsive li a:hover{
+border-bottom: 0px !important;
+}
+.responsive-links{
+    background-color: black;
+}
+
+@media screen and (max-width:996px) {
+    .menu-icon {
+        display: block;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:460px) {
+    .logo-img {
+        width: 100px;
+    }
+
+    .header-link-icon {
+        font-size: 20px;
+
+    }
+    .nav-list-responsive li a{
+        font-size: 18px !important;
+
+    }
+    .menu-icon{
+        margin-left: 10px !important;
+    }
+}

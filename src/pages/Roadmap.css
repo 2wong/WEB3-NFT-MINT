@@ -1,0 +1,133 @@
+.roadmap_container {
+    color: #f8f8f8;
+    margin: auto auto 30px;
+    max-width: 1110px;
+    text-align: center;
+    width: 98%;
+}
+.l_section, .r_section {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.num_section, .num_section h1 {
+    justify-content: flex-start;
+    width: 100px;
+}
+.r_section {
+    margin-left: auto;
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+}
+
+.l_section .content_section {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+.num_section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.r_section .content_section {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.l_section .content_section h2, .r_section .content_section h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.l_section .content_section p, .r_section .content_section p {
+    font-family: 'Poppins',sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 20px;
+    width: 100%;
+    width: calc(100% + 45px);
+    font-weight: 600;
+
+}
+.l_section {
+    justify-content: flex-end;
+    margin-right: auto;
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+}
+.l_section, .r_section {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.l_section .content_section p {
+    -webkit-transform: translateX(-45px);
+    transform: translateX(-45px);
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+}
+.num_section, .num_section h1 {
+    justify-content: flex-start;
+    width: 100px;
+}
+.num_section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.r_section .content_section {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.roadmap{
+    margin: 50px auto !important;
+    display: block;
+}
+@media screen and (max-width: 768px){
+.roadmap_wrapper {
+    width: 100%;
+}
+.l_section, .r_section {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    width: 90%;
+}
+.num_section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.r_section .content_section {
+    padding-right: 10px;
+    text-align: left;
+}
+
+.l_section {
+    justify-content: flex-end;
+    margin-right: auto;
+}
+
+.l_section .content_section {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.l_section .content_section h2, .r_section .content_section h2 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.l_section .content_section p {
+    margin-top: 10px;
+}
+
+}

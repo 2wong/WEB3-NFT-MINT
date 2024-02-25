@@ -1,0 +1,114 @@
+:root {
+  --main-color: #DC7D5F;
+  --text-color:#999;
+  --theme-btn: linear-gradient(160deg, var(--main-color), #F21D28);
+}
+
+body {
+  background-color: black !important;
+}
+
+.bg-container {
+  background: url('https://d33wubrfki0l68.cloudfront.net/a9a795e61cb68d34b5c2276bc5807c4b2dc3f29b/e5f2a/static/media/background.96d36f2010d20f79c303.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-container {
+  padding: 100px;
+}
+
+.main-img {
+  width: 550px;
+
+}
+
+.main-row {
+  align-items: center;
+  text-align: center;
+}
+
+.main-text {
+  color: #fff;
+  font-size: 36px;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.buy-btn {
+  text-decoration: none;
+  background-image: var(--theme-btn);
+  border: none;
+  font-family: 'Audiowide', cursive;
+  border-radius: 50px;
+  color: #f8f8f8;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 12px 24px;
+  position: relative;
+  top: 10px;
+  transition: 0.6s all ease-in-out;
+}
+
+.buy-btn:hover {
+  position: relative;
+  top: 25px;
+  color: #f8f8f8 ;
+}
+.Mint-btn{
+  margin-bottom: 20px; text-decoration: none;
+  background-image: var(--theme-btn);
+  border: none;
+  font-family: 'Audiowide', cursive;
+  border-radius: 50px;
+  color: #f8f8f8;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 12px 24px;
+  transition: 0.6s all ease-in-out;
+}
+
+@media screen and (max-width:992px) {
+  .main-img {
+    width: 60%;
+  }
+
+  .main-container {
+    padding-top: 20px;
+
+  }
+
+  .main-text {
+    margin-top: -30px;
+  }
+
+}
+
+@media screen and (max-width:776px) {
+  .main-text {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:468px) {
+  .main-text {
+    font-size: 20px;
+  }
+
+  .main-img {
+    width: 100%;
+  }
+
+  .main-text {
+    margin-top: -20px;
+  }
+  .buy-btn{
+    font-size: 25px;
+  }
+  .main-text {
+    font-size: 18px;
+  }
+}
