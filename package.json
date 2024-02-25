@@ -1,7 +1,10 @@
 {
-  "name": "nft-website",
+  "name": "WEB3-NFT-MINT",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "WEB3-NFT-MINT-DAPP",
+  "main": "index.js",
+  "repository": "https://github.com/2wong/WEB3-NFT-MINT.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -21,6 +24,16 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "keywords": [
+    "WEB3",
+    "NFT",
+    "W3",
+    "MINT"
+  ],
+  "author": {
+        "name": "2wong"
+    },
+  "license": "MIT",
   "eslintConfig": {
     "extends": [
       "react-app",
